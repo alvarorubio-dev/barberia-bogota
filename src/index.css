@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+<<<<<<< HEAD
   html {
     scroll-behavior: smooth;
   }
@@ -92,10 +93,19 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+=======
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+>>>>>>> c565bc3ded9c582e21bb48939a0a09a94108c66e
   }
 }
 
 @layer utilities {
+<<<<<<< HEAD
   .animation-delay-1000 {
     animation-delay: 1s;
   }
@@ -185,3 +195,18 @@
     }
   }
 }
+=======
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+>>>>>>> c565bc3ded9c582e21bb48939a0a09a94108c66e
