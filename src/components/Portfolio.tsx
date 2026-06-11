@@ -17,7 +17,7 @@ const Portfolio = () => {
       image:
         "https://images.pexels.com/photos/1319460/pexels-photo-1319460.jpeg?auto=compress&cs=tinysrgb&w=600",
       description: "Sitio web profesional con servicios y contacto directo.",
-      websiteLink: "https://coldchaindistributions.com/",
+      websiteLink: "https://peluqueria-bogota.vercel.app/",
       ariaLabel: "Visitar sitio web de Barbería",
     },
     {
