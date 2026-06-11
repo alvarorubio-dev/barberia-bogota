@@ -1,30 +1,30 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 const galleryImages = [
   {
-    url: 'https://images.pexels.com/photos/1805600/pexels-photo-1805600.jpeg?auto=compress&cs=tinysrgb&w=800',
-    alt: 'Corte de cabello premium en barbería Bogotá'
+    url: "https://images.pexels.com/photos/1805600/pexels-photo-1805600.jpeg?auto=compress&cs=tinysrgb&w=800",
+    alt: "Corte de cabello premium en barbería Bogotá",
   },
   {
-    url: 'https://images.pexels.com/photos/1319460/pexels-photo-1319460.jpeg?auto=compress&cs=tinysrgb&w=800',
-    alt: 'Barbero profesional trabajando en Bogotá'
+    url: "https://images.pexels.com/photos/2040189/pexels-photo-2040189.jpeg?auto=compress&cs=tinysrgb&w=800",
+    alt: "Barbero profesional trabajando en Bogotá",
   },
   {
-    url: 'https://images.pexels.com/photos/1570807/pexels-photo-1570807.jpeg?auto=compress&cs=tinysrgb&w=800',
-    alt: 'Corte clásico de cabello Chapinero'
+    url: "https://images.pexels.com/photos/1570807/pexels-photo-1570807.jpeg?auto=compress&cs=tinysrgb&w=800",
+    alt: "Corte clásico de cabello Chapinero",
   },
   {
-    url: 'https://images.pexels.com/photos/897270/pexels-photo-897270.jpeg?auto=compress&cs=tinysrgb&w=800',
-    alt: 'Afeitado de barba profesional Bogotá'
+    url: "https://images.pexels.com/photos/897270/pexels-photo-897270.jpeg?auto=compress&cs=tinysrgb&w=800",
+    alt: "Afeitado de barba profesional Bogotá",
   },
   {
-    url: 'https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=800',
-    alt: 'Tratamiento facial barbería premium'
+    url: "https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=800",
+    alt: "Tratamiento facial barbería premium",
   },
   {
-    url: 'https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=800',
-    alt: 'Interior barbería moderna Bogotá'
-  }
+    url: "https://images.pexels.com/photos/9146943/pexels-photo-9146943.jpeg?auto=compress&cs=tinysrgb&w=800",
+    alt: "Interior barbería moderna Bogotá",
+  },
 ];
 
 export default function Gallery() {
